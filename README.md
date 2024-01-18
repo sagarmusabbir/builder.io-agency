@@ -1,17 +1,17 @@
-# React Awesome Reveal - Next.Js Agency
+# builder.io - Next.Js Agency
 
-### Deploy Preview [![Netlify Status](https://api.netlify.com/api/v1/badges/04870de6-8da8-4746-b8d8-82d432fc1340/deploy-status)](https://app.netlify.com/sites/react-awesome-next/deploys)
+### Deploy Preview [![Netlify Status](https://api.netlify.com/api/v1/badges/a187b602-dfb5-4270-80b5-4bf003baed77/deploy-status)](https://app.netlify.com/sites/builder-io-agency/deploys)
 
-[![Preview](https://cdn-icons-png.flaticon.com/512/2547/2547870.png)](https://react-awesome-next.netlify.app/)
+[![Preview](https://cdn-icons-png.flaticon.com/512/2547/2547870.png)](https://builder-io-agency.netlify.app)
 
 ### Built With
 
 - [Next JS](https://nextjs.org/)
-- [Tailwindcss](https://tailwindcss.com/)
+- [Builder.io](https://www.builder.io/)
 
 ## Description
 
-A one-page website for business/agency. Design by <a href='https://www.figma.com/@zet_dev'>Dliya' Zarror Nibros</a>
+A one-page website for business/agency. Modelled after the [Vivid landing page](https://vivid.lol).
 
 ## Getting Started
 
@@ -24,11 +24,10 @@ NEXT_PUBLIC_MAIN_URL=http://localhost:3000/
 ### Depedencies
 
 ```bash
-"@emotion/react": "^11.7.1",
-"next": "12.0.7",
-"react": "17.0.2",
-"react-awesome-reveal": "^3.8.1",
-"react-dom": "17.0.2"
+"axios": "^1.1.3",
+"next": "13.0.0",
+"react": "18.2.0",
+"react-dom": "18.2.0"
 ```
 
 ### Installing
@@ -36,8 +35,8 @@ NEXT_PUBLIC_MAIN_URL=http://localhost:3000/
 1. Clone the repo and enter the directory
 
 ```sh
-git clone https://github.com/sagarmusabbir/react-awesome-next.git
-cd react-awesome-next
+git clone https://github.com/sagarmusabbir/builder.io-agency.git
+cd builder.io-agency
 ```
 
 2. Install NPM packages
@@ -56,7 +55,7 @@ npm run dev or yarn dev
 
 sagarmusabbir@gmail.com
 
-Project Link: [https://github.com/sagarmusabbir/react-awesome-next.git](https://github.com/sagarmusabbir/react-awesome-next.git)
+Project Link: [https://github.com/sagarmusabbir/builder.io-agency.git](https://github.com/sagarmusabbir/builder.io-agency.git)
 
 ## Authors
 
@@ -77,5 +76,6 @@ This project is licensed under the [Name] License - see the LICENSE.md file for 
 
 ## Acknowledgements
 
-- [react-awesome-reveal](https://www.npmjs.com/package/react-awesome-reveal)
-- [@emotion/react](https://www.npmjs.com/package/@emotion/react)
+- [axios](https://axios-http.com/)
+- [builder.io](https://www.builder.io/)
+- [Vivid](https://www.vivid.lol/)
