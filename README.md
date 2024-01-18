@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-
-# builder.io - Next.Js Agency
-
-=======
-Builder.io-Agency
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a187b602-dfb5-4270-80b5-4bf003baed77/deploy-status)](https://app.netlify.com/sites/builder-io-agency/deploys)
-
-> > > > > > > refs/remotes/origin/main
+# Builder.io-Agency
 
 ### Deploy Preview [![Netlify Status](https://api.netlify.com/api/v1/badges/a187b602-dfb5-4270-80b5-4bf003baed77/deploy-status)](https://app.netlify.com/sites/builder-io-agency/deploys)
 
