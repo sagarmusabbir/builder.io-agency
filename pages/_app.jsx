@@ -13,7 +13,7 @@ if (typeof window !== "undefined" && process.env.NODE_ENV === "development") {
   import("vivid-studio/style.css");
 }
 
-const siteTitle = "Vivid — Build visually. Code faster.";
+const siteTitle = "THIRDBRACKET.CO.UK — BUILD . INTEGRATE . EXPLORE.";
 const siteDescription =
   "Make CSS styling a breeze with Vivid's in-browser visual editor that automatically updates your code.";
 
