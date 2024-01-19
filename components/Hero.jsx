@@ -37,14 +37,14 @@ export const Hero = () => {
             data-aos="zoom-y-out"
             className="text-5xl font-bold leading-tight tracking-tighter text-gray-800 md:text-7xl dark:text-gray-100"
           >
-            Integrate{" "}
+            build{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-pink to-neon-blue">
-              business.
+            integrate
             </span>
             <br />
-            Grow{" "}
+            grow{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-purple to-neon-teal">
-              faster.
+            explore
             </span>
           </h1>
           <p
