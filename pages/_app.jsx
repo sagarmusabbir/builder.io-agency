@@ -49,7 +49,7 @@ const App = ({ Component, pageProps }) => {
           sizes="180x180"
           href="/apple-touch-icon.png"
         />
-        <link rel="icon" href="/icons/favicon.ico" />
+        <link rel="icon" href="/icons/favicon1.ico" />
         <meta
           property="og:image"
           content="https://vivid.lol/images/landing-page.png"

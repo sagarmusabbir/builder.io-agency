@@ -3,7 +3,7 @@ import axios from "axios";
 import Image from "next/image";
 
 import { ScatteredSpheres } from "../svg/ScatteredSpheres";
-import MacBarSrc from "../public/images/mac-bar.png";
+import BarSrc from "../public/images/bar.png";
 
 // Built with Vivid (https://vivid.lol) ⚡️
 
@@ -37,14 +37,14 @@ export const Hero = () => {
             data-aos="zoom-y-out"
             className="text-5xl font-bold leading-tight tracking-tighter text-gray-800 md:text-7xl dark:text-gray-100"
           >
-            build{" "}
+            Integrate{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-pink to-neon-blue">
-            integrate
+              ideas
             </span>
             <br />
-            grow{" "}
+            Build{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-purple to-neon-teal">
-            explore
+              values
             </span>
           </h1>
           <p
@@ -52,7 +52,7 @@ export const Hero = () => {
             data-aos-delay="150"
             className="text-lg text-gray-600 md:text-xl dark:text-gray-400"
           >
-            Let Us Help You Create Your First Business Website
+            Give your business a paltform to compete!
           </p>
           <div
             className="flex flex-col"
@@ -86,13 +86,13 @@ export const Hero = () => {
                 type="submit"
                 className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-primary-600 hover:bg-primary-700 w-fit"
               >
-                Waitlist
+                Join
               </button>
             </form>
             <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
               {emailSubmitted
                 ? "We'll keep you posted!"
-                : "Be the first to experience Vivid."}
+                : "Your web transformation starts here."}
             </p>
           </div>
         </div>
@@ -102,7 +102,7 @@ export const Hero = () => {
           className="relative flex flex-col justify-center w-full max-w-2xl overflow-hidden rounded-lg shadow-lg md:rounded-xl"
         >
           <Image
-            src={MacBarSrc}
+            src={BarSrc}
             className="rounded-t-lg md:rounded-t-xl"
             alt="Mac window bar"
           />
@@ -111,12 +111,13 @@ export const Hero = () => {
             loop
             muted
             playsInline
-            aria-label="A video showing Vivid's functionality including command palette, style preview, code pane, and mouse resizing"
+            // aria-label="A video showing Vivid's functionality including command palette, style preview, code pane, and mouse resizing"
+            aria-label="A video showing VSCodes functionality including terminal, front-matter, code, and implementation"
             tabIndex={-1}
           >
             {/* Need both for Safari compatibility */}
-            <source src="/videos/total.webm" type="video/webm" />
-            <source src="/videos/total.mp4" type="video/mp4" />
+            <source src="/videos/vignetage-hp.webm" type="video/webm" />
+            <source src="/videos/vignetage-hp.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
