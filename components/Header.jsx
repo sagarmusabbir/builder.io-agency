@@ -32,7 +32,7 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
   const Logo = () => (
     <Link href="/">
       <div className="flex flex-row items-center gap-1">
-        <Image src="/images/logo.png" alt="Vivid logo" height="40" width="40" />
+        <Image src="/images/F62ABE0E-E365-4D7E-A373-F501D89999DF.png" alt="Vivid logo" height="40" width="40" />
         <div className="text-3xl font-bold">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-pink to-neon-blue">
             Vivid
