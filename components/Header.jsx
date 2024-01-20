@@ -32,8 +32,8 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
   const Logo = () => (
     <Link href="/">
       <div className="flex flex-row items-center gap-1">
-        <Image src="/images/tb7.png" alt="Vivid logo" height="40" width="40" />
-        <div className="text-3xl font-bold">
+        <Image src="/images/og.png" alt="Vivid logo" height="40" width="40" />
+        <div className="text-3xl font-bold hidden lg:block">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-pink to-neon-blue">
             thirdbracket
           </span>
@@ -72,7 +72,7 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
             onClick={goToEmail}
             className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-primary-600 hover:bg-primary-700 w-fit"
           >
-            Waitlist
+            Join
           </button>
         </li>
       </ul>

@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import { ScatteredSpheres } from "../svg/ScatteredSpheres";
 import BarSrc from "../public/images/bar.png";
+import HeroSrc from "../public/images/hero.jpg";
 
 // Built with Vivid (https://vivid.lol) ⚡️
 
@@ -106,19 +107,25 @@ export const Hero = () => {
             className="rounded-t-lg md:rounded-t-xl"
             alt="Mac window bar"
           />
-          <video
+          {/* <video
             autoPlay
             loop
             muted
             playsInline
-            // aria-label="A video showing Vivid's functionality including command palette, style preview, code pane, and mouse resizing"
-            aria-label="A video showing VSCodes functionality including terminal, front-matter, code, and implementation"
+            aria-label="A video showing Vivid's functionality including command palette, style preview, code pane, and mouse resizing"
+            // aria-label="A video showing VSCodes functionality including terminal, front-matter, code, and implementation"
             tabIndex={-1}
-          >
-            {/* Need both for Safari compatibility */}
-            <source src="/videos/vignetage-hp.webm" type="video/webm" />
-            <source src="/videos/vignetage-hp.mp4" type="video/mp4" />
-          </video>
+          > */}
+
+          <Image
+            src={HeroSrc}
+            // className="rounded-t-lg md:rounded-t-xl"
+            alt="Mac window bar"
+          />
+          {/* Need both for Safari compatibility */}
+          {/* <source src="/videos/total.webm" type="video/webm" />
+            <source src="/videos/total.mp4" type="video/mp4" /> */}
+          {/* </video> */}
         </div>
       </div>
     </section>
