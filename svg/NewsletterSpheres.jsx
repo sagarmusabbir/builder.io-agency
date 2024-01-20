@@ -10,9 +10,9 @@ export const NewsletterSpheres = () => {
           r="96.031%"
           id="ni-a"
         >
-          <stop stopColor="#DFDFDF" offset="0%" />
-          <stop stopColor="#4C4C4C" offset="44.317%" />
-          <stop stopColor="#333" offset="100%" />
+          <stop stopColor="#e2e8f0" offset="0%" />
+          <stop stopColor="#4b5563" offset="44.317%" />
+          <stop stopColor="#374151" offset="100%" />
         </radialGradient>
       </defs>
       <g fill="none" fillRule="evenodd">

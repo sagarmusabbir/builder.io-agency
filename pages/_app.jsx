@@ -13,9 +13,8 @@ if (typeof window !== "undefined" && process.env.NODE_ENV === "development") {
   import("vivid-studio/style.css");
 }
 
-const siteTitle = "THIRDBRACKET.CO.UK — BUILD . INTEGRATE . EXPLORE.";
-const siteDescription =
-  "Make CSS styling a breeze with Vivid's in-browser visual editor that automatically updates your code.";
+const siteTitle = "thirdbracket.co.uk — build . integrate . explore";
+const siteDescription = "Give your business a paltform to compete!";
 
 const App = ({ Component, pageProps }) => {
   const { isDarkMode, toggle: toggleDarkMode } = useDarkMode();
@@ -47,13 +46,10 @@ const App = ({ Component, pageProps }) => {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/apple-touch-icon.png"
+          href="/apple-touch-icon-180.png"
         />
-        <link rel="icon" href="/icons/favicon1.ico" />
-        <meta
-          property="og:image"
-          content="https://vivid.lol/images/landing-page.png"
-        />
+        <link rel="icon" href="/icons/favicon-48.ico" />
+        <meta property="og:image" content="/images/hero.png" />
       </Head>
       <NextSeo
         title={siteTitle}

@@ -8,13 +8,13 @@ export const Footer = () => {
       <div className="items-center justify-between px-10 py-4 mx-auto sm:px-6 flex flex-row max-w-7xl">
         <div className="items-center gap-4 flex flex-row">
           <Image
-            src="/images/logo.png"
+            src="/images/brackets-64.png"
             alt="Vivid Logo"
             height="40"
             width="40"
           />
           <div className="text-sm text-gray-600 dark:text-gray-400">
-            &copy; Vivid Labs, Inc. 2022
+            &copy; Third Bracket, Inc. 2024
           </div>
         </div>
         <a

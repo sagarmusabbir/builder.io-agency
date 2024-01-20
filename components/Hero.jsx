@@ -23,11 +23,11 @@ export const Hero = () => {
   return (
     <section className="relative overflow-hidden bg-gray-50 dark:bg-gray-900">
       <div className="absolute inset-0 z-10 backdrop-blur-[200px]" />
-      <div className="md:-left-[28rem] -left-40 -top-40 md:-top-[28rem] bg-neon-pink absolute opacity-60 dark:opacity-30 rounded-full w-96 h-96 md:w-[48rem] md:h-[48rem]" />
+      <div className="md:-left-[28rem] -left-40 -top-40 md:-top-[28rem] bg-neon-slate absolute opacity-60 dark:opacity-30 rounded-full w-96 h-96 md:w-[48rem] md:h-[48rem]" />
       <div className="md:-right-[28rem] -right-40 -bottom-40 md:-bottom-[28rem] bg-neon-blue absolute opacity-60 dark:opacity-30 rounded-full w-96 h-96 md:w-[48rem] md:h-[48rem]" />
       <div className="relative z-20 px-12 py-24 mx-auto flex flex-col max-w-7xl items-center justify-center min-h-screen 2xl:min-h-[1000px] h-fit gap-16 md:flex-row">
         <div
-          className="absolute inset-0 translate-y-32 pointer-events-none dark:invert dark:brightness-90"
+          className="absolute inset-0 translate-y-32 pointer-events-none dark:invert dark:brightness-97"
           aria-hidden="true"
         >
           <ScatteredSpheres />
@@ -39,12 +39,12 @@ export const Hero = () => {
             className="text-5xl font-bold leading-tight tracking-tighter text-gray-800 md:text-7xl dark:text-gray-100"
           >
             Integrate{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-pink to-neon-blue">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-blue to-neon-teal">
               ideas
             </span>
             <br />
             Build{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-purple to-neon-teal">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-teal to-neon-blue">
               values
             </span>
           </h1>
@@ -66,7 +66,7 @@ export const Hero = () => {
             >
               <input
                 type="email"
-                placeholder="richard.hendricks@piedpiper.com"
+                placeholder="sagarmusabbir@gmail.com"
                 aria-label="Your email"
                 name="email"
                 id="hero-waitlist"
@@ -85,7 +85,7 @@ export const Hero = () => {
               <div className="absolute top-0 w-[4.3rem] h-[2px] bg-gray-100 dark:bg-gray-800 left-3" />
               <button
                 type="submit"
-                className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-primary-600 hover:bg-primary-700 w-fit"
+                className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-neon-teal hover:bg-primary-700 w-fit"
               >
                 Join
               </button>
@@ -120,7 +120,7 @@ export const Hero = () => {
           <Image
             src={HeroSrc}
             // className="rounded-t-lg md:rounded-t-xl"
-            alt="Mac window bar"
+            alt="hero"
           />
           {/* Need both for Safari compatibility */}
           {/* <source src="/videos/total.webm" type="video/webm" />

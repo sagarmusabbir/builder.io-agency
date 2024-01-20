@@ -35,8 +35,8 @@ export const Newsletter = () => {
               Save your spot today
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400">
-              By joining our waitlist, you&apos;ll be the first to see our
-              product. We&apos;d love to learn from you along the way!
+              By joining, you&apos;ll be the first 100 startups to work with us.
+              We&apos;d love to learn from you along the way!
             </p>
             <div
               className="flex flex-col"
@@ -49,7 +49,7 @@ export const Newsletter = () => {
               >
                 <input
                   type="email"
-                  placeholder="richard.hendricks@piedpiper.com"
+                  placeholder="sagarmusabbir@gmail.com"
                   aria-label="Your email"
                   name="email"
                   id="newsletter-waitlist"
@@ -70,13 +70,13 @@ export const Newsletter = () => {
                   type="submit"
                   className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-primary-600 hover:bg-primary-700 w-fit"
                 >
-                  Waitlist
+                  Join
                 </button>
               </form>
               <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
                 {emailSubmitted
                   ? "We'll keep you posted!"
-                  : "Be the first to experience Vivid."}
+                  : "Be the first to experience Third Bracket."}
               </p>
             </div>
           </div>
