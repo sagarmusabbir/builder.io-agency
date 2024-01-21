@@ -82,6 +82,11 @@ module.exports = {
           amber: "#f59e0b",
           red: "#ef4444",
           emereld: "#10b981",
+          slate: "#94a3b8",
+          zinc: "#a1a1aa",
+          orange: "#f97316",
+          indigo: "#6366f1",
+          violet: "#8b5cf6",
         },
       },
       fontFamily: {

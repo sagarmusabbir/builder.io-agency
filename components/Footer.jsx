@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
+import AvatarSrc from "../public/images/avatar.png";
 
 // Built with Vivid (https://vivid.lol) ⚡️
 
@@ -17,13 +19,21 @@ export const Footer = () => {
             &copy; Third Bracket, Inc. 2024
           </div>
         </div>
-        <a
+        {/* <a
           href="https://join.slack.com/t/thirdbracket/shared_invite/zt-2b0nmfpcj-~kImXdgzQyyazvt83t5oqw"
           aria-label="Join Slack"
           className="text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5"
         >
           Join our Slack!
-        </a>
+        </a> */}
+        <FloatingWhatsApp
+          phoneNumber="881765692886"
+          accountName="Musabbir Sagar"
+          avatar={AvatarSrc.src}
+          chatMessage="Thanks for visiting!
+          I am Musabbir Sagar the founder at your service! How can i help you?"
+          darkMode={false}
+        ></FloatingWhatsApp>
       </div>
     </footer>
   );

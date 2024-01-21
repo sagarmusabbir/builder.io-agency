@@ -19,18 +19,19 @@ export const FeatureBlocks = () => {
             data-aos="zoom-y-out"
             className="font-bold leading-tight tracking-tighter text-4xl md:text-6xl text-gray-800 dark:text-gray-100"
           >
-            Make styling a{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-purple to-neon-teal">
-              breeze
-            </span>
+            Make{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-blue via-neon-emereld to-neon-indigo">
+              headless
+            </span>{" "}
+            a havit
           </h2>
           <p
             data-aos="zoom-y-out"
             data-aos-delay="150"
             className="text-lg md:text-xl text-gray-600 dark:text-gray-400"
           >
-            Stop wasting your time. Vivid makes CSS easier than recursive
-            depth-first search.
+            You have the freedom to choose the technology that best suits your
+            need.
           </p>
         </div>
         {/* Blocks */}
