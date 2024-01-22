@@ -86,7 +86,8 @@ export const Hero = () => {
               <div className="absolute top-0 w-[4.3rem] h-[2px] bg-gray-100 dark:bg-gray-800 left-3" />
               <button
                 type="submit"
-                className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-neon-teal hover:bg-primary-700 w-fit"
+                // className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-neon-teal hover:bg-primary-700 w-fit"
+                className="bg-gradient-to-br from-neon-teal to-neon-emereld px-4 py-2 font-bold rounded-lg text-gray-50 w-fit rounded-lg "
               >
                 Join
               </button>

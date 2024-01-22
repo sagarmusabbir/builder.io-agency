@@ -40,7 +40,7 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
           width="40"
         />
         <div className="text-3xl font-bold hidden lg:block md:block">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-blue to-neon-teal">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-sky to-neon-emereld">
             thirdbracket
           </span>
         </div>
@@ -100,7 +100,9 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
           <button
             type="button"
             onClick={goToEmail}
-            className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-neon-teal hover:bg-primary-700 w-fit"
+            // className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-neon-teal hover:bg-primary-700 w-fit"
+            // className="px-3 py-1.5 font-bold rounded-lg bg-transparent text-neon-teal hover:text-neon-blue border-2 border-neon-teal hover:border-neon-blue"
+            className="text-neon-teal hover:text-neon-emereld px-3 py-1.5 font-bold rounded-lg border-2 border-neon-emereld hover:border-neon-teal "
           >
             Join
           </button>
