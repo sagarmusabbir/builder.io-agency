@@ -26,7 +26,7 @@ export const Newsletter = () => {
     window.alert(`Email "${res.data.email}" submitted!`);
   };
   return (
-    <section className="relative overflow-hidden bg-gray-50 dark:bg-gray-900">
+    <section className="relative overflow-hidden bg-slate-50 dark:bg-gray-900">
       <div className="relative z-20 flex flex-col px-4 py-24 mx-auto max-w-7xl dark sm:px-12">
         <div className="relative flex-1 w-full px-4 py-16 overflow-hidden border border-gray-300 rounded-lg shadow-xl dark:border-gray-600 bg-gray-50 dark:bg-gray-900 sm:px-16">
           <Background />

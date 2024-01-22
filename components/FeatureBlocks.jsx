@@ -11,7 +11,7 @@ import {
 
 export const FeatureBlocks = () => {
   return (
-    <section className="relative overflow-hidden bg-gray-50 dark:bg-gray-900">
+    <section className="relative overflow-hidden bg-zinc-50 dark:bg-gray-950">
       <div className="relative z-20 gap-16 px-12 py-24 mx-auto text-center flex flex-col max-w-7xl">
         {/* Header */}
         <div className="gap-4 flex flex-col">

@@ -64,7 +64,7 @@ export const Features = () => {
         </div>
       </section>
       {/* Feature 2 */}
-      <section className="relative overflow-hidden bg-gray-50 dark:bg-gray-900">
+      <section className="relative overflow-hidden bg-zinc-50 dark:bg-gray-950">
         <div className="relative z-20 items-center px-0 py-24 mx-auto flex flex-col max-w-7xl md:flex-row-reverse">
           <div className="w-5/6 gap-4 mx-auto mb-8 text-center flex flex-col md:w-2/5 md:text-left md:my-auto">
             <h2
