@@ -5,6 +5,7 @@ import Image from "next/image";
 import { ScatteredSpheres } from "../svg/ScatteredSpheres";
 import BarSrc from "../public/images/bar.png";
 import HeroSrc from "../public/images/hero.jpg";
+import Feat2Src from "../public/images/feature-2.jpg";
 
 // Built with Vivid (https://vivid.lol) ⚡️
 
@@ -118,7 +119,7 @@ export const Hero = () => {
           > */}
 
           <Image
-            src={HeroSrc}
+            src={Feat2Src}
             // className="rounded-t-lg md:rounded-t-xl"
             alt="hero"
           />
