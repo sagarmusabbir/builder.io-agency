@@ -66,7 +66,7 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
         ) : null}
         <li>
           <button
-            href="musabbirsagar.com/blog"
+            href="https://musabbirsagar.com/blog"
             target="_blank"
             // className="text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5"
             className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-primary-600 hover:bg-primary-700 w-fit"
