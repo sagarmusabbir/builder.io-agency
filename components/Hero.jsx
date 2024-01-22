@@ -119,7 +119,7 @@ export const Hero = () => {
           > */}
 
           <Image
-            src={Feat2Src}
+            src={HeroSrc}
             // className="rounded-t-lg md:rounded-t-xl"
             alt="hero"
           />

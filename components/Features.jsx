@@ -2,11 +2,11 @@ import Image from "next/image";
 
 import MacBarSrc from "../public/images/mac-bar.png";
 import BarSrc from "../public/images/bar.png";
-import Feat1Src from "../public/images/feature-1.jpg";
+
 import Feat2Src from "../public/images/feature-2.jpg";
-import Feat3Src from "../public/images/feature-3.jpg";
+
 import Feat4Src from "../public/images/feature-4.jpg";
-import Feat5Src from "../public/images/feature-5.jpg";
+
 import Feat6Src from "../public/images/feature-6.webp";
 
 // Built with Vivid (https://vivid.lol) ⚡️
@@ -108,7 +108,7 @@ export const Features = () => {
                 <source src="/videos/resize.webm" type="video/webm" />
                 <source src="/videos/resize.mp4" type="video/mp4" />
               </video> */}
-              <Image src={Feat5Src} alt="feature-2" />
+              <Image src={Feat2Src} alt="feature-2" />
             </div>
           </div>
         </div>
@@ -141,7 +141,7 @@ export const Features = () => {
               className="relative justify-center w-full max-w-2xl overflow-hidden shadow-lg flex flex-col rounded-lg md:rounded-xl"
             >
               <Image
-                src={MacBarSrc}
+                src={BarSrc}
                 className="rounded-t-lg md:rounded-t-xl"
                 alt="Mac window bar"
               />

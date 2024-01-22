@@ -65,7 +65,7 @@ module.exports = {
           400: "#9ca3af",
           500: "#64748b", //slate-600
           600: "#383838", //
-          700: "#2B1B17", //Midnight
+          700: "#36454F", //Charcol
           800: "#111111", //licorice
           900: "#0C090A", //night
           950: "#0C0404", //Asphalt
@@ -82,8 +82,8 @@ module.exports = {
           amber: "#f59e0b",
           red: "#ef4444",
           emereld: "#10b981",
-          slate: "#94a3b8",
-          zinc: "#a1a1aa",
+          slate: "#e2e8f0",
+          zinc: "#e4e4e7",
           orange: "#f97316",
           indigo: "#6366f1",
           violet: "#8b5cf6",

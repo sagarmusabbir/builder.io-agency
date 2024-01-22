@@ -8,7 +8,7 @@ export const CardsIcon = () => {
       <title>Cards Icon</title>
       <g fill="none" fillRule="evenodd">
         <rect
-          className="fill-current text-primary-600"
+          className="fill-current text-neon-teal"
           width="64"
           height="64"
           rx="32"
@@ -38,7 +38,7 @@ export const DoorIcon = () => {
       <title>Door Icon</title>
       <g fill="none" fillRule="evenodd">
         <rect
-          className="fill-current text-primary-600"
+          className="fill-current text-neon-teal"
           width="64"
           height="64"
           rx="32"
@@ -78,7 +78,7 @@ export const MagicIcon = () => {
       <title>Magic Icon</title>
       <g fill="none" fillRule="evenodd">
         <rect
-          className="fill-current text-primary-600"
+          className="fill-current text-neon-teal"
           width="64"
           height="64"
           rx="32"
@@ -117,7 +117,7 @@ export const ShuffleIcon = () => {
       <title>Shuffle Icon</title>
       <g fill="none" fillRule="evenodd">
         <rect
-          className="fill-current text-primary-600"
+          className="fill-current text-neon-teal"
           width="64"
           height="64"
           rx="32"
@@ -147,7 +147,7 @@ export const SignalIcon = () => {
       <title>Signal Icon</title>
       <g fill="none" fillRule="evenodd">
         <rect
-          className="fill-current text-primary-600"
+          className="fill-current text-neon-teal"
           width="64"
           height="64"
           rx="32"
@@ -184,7 +184,7 @@ export const TalkingIcon = () => {
       <title>Talking Icon</title>
       <g fill="none" fillRule="evenodd">
         <rect
-          className="fill-current text-primary-600"
+          className="fill-current text-neon-teal"
           width="64"
           height="64"
           rx="32"

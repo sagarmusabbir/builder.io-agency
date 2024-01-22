@@ -65,15 +65,30 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
           </li>
         ) : null}
         <li>
-          <button
+          <Link
             href="https://musabbirsagar.com/blog"
             target="_blank"
             // className="text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5"
-            className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-primary-600 hover:bg-primary-700 w-fit"
+            className="font-medium text-base text-gray-600 dark:text-gray-400 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 p-2 flex items-center"
           >
-            Blog ↗
-          </button>
+            Blog
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-4 h-4"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+              />
+            </svg>
+          </Link>
         </li>
+
         {/* <li>
           <FloatingWhatsApp
             phoneNumber="881765692886"
@@ -85,7 +100,7 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
           <button
             type="button"
             onClick={goToEmail}
-            className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-primary-600 hover:bg-primary-700 w-fit"
+            className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-neon-teal hover:bg-primary-700 w-fit"
           >
             Join
           </button>
