@@ -34,10 +34,10 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
     <Link href="/">
       <div className="flex flex-row items-center gap-1">
         <Image
-          src="/images/brackets-64.png"
-          alt="Vivid logo"
-          height="40"
-          width="40"
+          src="/images/thirdbracket.svg"
+          alt="thirdbracket.co.uk"
+          height="50"
+          width="50"
         />
         <div className="text-3xl font-bold hidden lg:block md:block">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-sky to-neon-emereld">
@@ -71,7 +71,7 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
             // className="text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5"
             className="font-medium text-base text-gray-600 dark:text-gray-400 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 p-2 flex items-center"
           >
-            Blog
+            [ Blog ]
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -102,9 +102,9 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
             onClick={goToEmail}
             // className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-neon-teal hover:bg-primary-700 w-fit"
             // className="px-3 py-1.5 font-bold rounded-lg bg-transparent text-neon-teal hover:text-neon-blue border-2 border-neon-teal hover:border-neon-blue"
-            className="text-neon-teal hover:text-neon-emereld px-3 py-1.5 font-bold rounded-lg border-2 border-neon-emereld hover:border-neon-teal "
+            className="text-transparent bg-clip-text bg-gradient-to-r from-neon-sky to-neon-emereld  px-3 py-1.5 font-bold rounded-md hover:bg-gray-200dark:hover:bg-gray-700"
           >
-            Join
+            [ Join ]
           </button>
         </li>
       </ul>

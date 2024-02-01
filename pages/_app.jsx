@@ -46,9 +46,9 @@ const App = ({ Component, pageProps }) => {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/apple-touch-icon-180.png"
+          href="/apple-touch-icon.png"
         />
-        <link rel="icon" href="/icons/favicon-48.ico" />
+        <link rel="icon" href="/icons/favicon.ico" />
         <meta property="og:image" content="/images/hero.png" />
       </Head>
       <NextSeo

@@ -26,14 +26,14 @@ export const Footer = () => {
         >
           Join our Slack!
         </a> */}
-        <FloatingWhatsApp
+        {/* <FloatingWhatsApp
           phoneNumber="881765692886"
           accountName="Musabbir Sagar"
           avatar={AvatarSrc.src}
           chatMessage="Thanks for visiting!
           I am Musabbir Sagar the founder at your service! How can i help you?"
           darkMode={false}
-        ></FloatingWhatsApp>
+        ></FloatingWhatsApp> */}
       </div>
     </footer>
   );
