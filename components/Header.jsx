@@ -36,8 +36,8 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
         <Image
           src="/images/thirdbracket.svg"
           alt="thirdbracket.co.uk"
-          height="45"
-          width="45"
+          height="50"
+          width="50"
         />
         <div className="text-3xl font-bold hidden lg:block md:block">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-color1  via-neon-color2 via-neon-color3 via-neon-color4 to-neon-color5">
@@ -69,10 +69,10 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
             href="https://musabbirsagar.com/blog"
             target="_blank"
             // className="text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5"
-            className="text-gray-600 hover:text-neon-slatedarker  dark:text-gray-400 hover:bg-neon-slatelightmd/40 dark:hover:bg-neon-slatedarker rounded-lg text-md p-3"
+            className="font-bold text-gray-600 hover:text-neon-slatedarker  dark:text-gray-400 hover:bg-neon-slatelightmd/40 dark:hover:bg-neon-slatedarker rounded-lg text-md p-3"
           >
-            Blog↗
-            {/* <svg
+            Blog
+             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -85,7 +85,7 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
                 strokeLinejoin="round"
                 d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
               />
-            </svg> */}
+            </svg> 
           </Link>
         </li>
 
