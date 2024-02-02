@@ -36,11 +36,11 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
         <Image
           src="/images/thirdbracket.svg"
           alt="thirdbracket.co.uk"
-          height="50"
-          width="50"
+          height="45"
+          width="45"
         />
         <div className="text-3xl font-bold hidden lg:block md:block">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-sky to-neon-emereld">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-color1  via-neon-color2 via-neon-color3 via-neon-color4 to-neon-color5">
             thirdbracket
           </span>
         </div>
@@ -58,7 +58,7 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
               onClick={toggleDarkMode}
               title="Toggle dark mode"
               aria-label="Toggle dark mode"
-              className="text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5"
+              className="text-gray-600 hover:text-neon-slatedark dark:text-gray-400 hover:bg-neon-slatelightmd/40 dark:hover:bg-neon-slatedarker rounded-lg text-sm p-2.5"
             >
               {isDarkMode ? <Moon /> : <Sun />}
             </button>
@@ -69,10 +69,10 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
             href="https://musabbirsagar.com/blog"
             target="_blank"
             // className="text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5"
-            className="font-medium text-base text-gray-600 dark:text-gray-400 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 p-2 flex items-center"
+            className="text-gray-600 hover:text-neon-slatedarker  dark:text-gray-400 hover:bg-neon-slatelightmd/40 dark:hover:bg-neon-slatedarker rounded-lg text-md p-3"
           >
-            [ Blog ]
-            <svg
+            Blog↗
+            {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -85,7 +85,7 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
                 strokeLinejoin="round"
                 d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
               />
-            </svg>
+            </svg> */}
           </Link>
         </li>
 
@@ -102,9 +102,9 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
             onClick={goToEmail}
             // className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-neon-teal hover:bg-primary-700 w-fit"
             // className="px-3 py-1.5 font-bold rounded-lg bg-transparent text-neon-teal hover:text-neon-blue border-2 border-neon-teal hover:border-neon-blue"
-            className="text-transparent bg-clip-text bg-gradient-to-r from-neon-sky to-neon-emereld  px-3 py-1.5 font-bold rounded-md hover:bg-gray-200dark:hover:bg-gray-700"
+            className="text-transparent bg-clip-text bg-gradient-to-r from-neon-color2 to-neon-color4  px-3 py-1.5 font-bold rounded-md hover:text-color3"
           >
-            [ Join ]
+            Join
           </button>
         </li>
       </ul>

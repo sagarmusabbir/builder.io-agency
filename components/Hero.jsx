@@ -41,12 +41,12 @@ export const Hero = () => {
             className="text-5xl font-bold leading-tight tracking-tighter text-gray-800 md:text-7xl dark:text-gray-100"
           >
             Integrate{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-blue to-neon-teal">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-color1 to-neon-color4">
               ideas
             </span>
             <br />
             Build{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-teal to-neon-blue">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-color5 to-neon-color2">
               values
             </span>
           </h1>
@@ -88,7 +88,7 @@ export const Hero = () => {
               <button
                 type="submit"
                 // className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-neon-teal hover:bg-primary-700 w-fit"
-                className="bg-gradient-to-br from-neon-teal to-neon-emereld px-4 py-2 font-bold rounded-lg text-gray-50 w-fit rounded-lg "
+                className="bg-gradient-to-br from-neon-color1 to-neon-color4 px-4 py-2 font-bold rounded-lg text-gray-50 w-fit rounded-lg "
               >
                 Join
               </button>
