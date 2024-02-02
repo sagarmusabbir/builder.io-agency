@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+// import { Link } from "@nextui-org/react";
 
 import { useEffectOnce, useEventListener } from "usehooks-ts";
 
@@ -58,23 +59,23 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
               onClick={toggleDarkMode}
               title="Toggle dark mode"
               aria-label="Toggle dark mode"
-              className="text-gray-600 hover:text-neon-slatedark dark:text-gray-400 hover:bg-neon-slatelightmd/40 dark:hover:bg-neon-slatedarker rounded-lg text-sm p-2.5"
+              className="text-gray-600 hover:text-neon-slatedark dark:text-gray-400 hover:bg-slate-200/40 dark:hover:bg-neon-slatedarker rounded-lg text-sm p-2.5"
             >
               {isDarkMode ? <Moon /> : <Sun />}
             </button>
           </li>
         ) : null}
-        <li>
+        {/* <li>
           <Link
             href="https://musabbirsagar.com/blog"
             target="_blank"
             isExternal
             showAnchorIcon
             // className="text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5"
-            className="flex items-center font-bold text-gray-600 hover:text-neon-slatedarker  dark:text-gray-400 hover:bg-neon-slatelightmd/40 dark:hover:bg-neon-slatedarker rounded-lg text-md p-3"
+            className="flex items-center font-bold text-gray-600 hover:text-neon-slatedarker  dark:text-gray-400 hover:bg-neon-slatelightmd/40 dark:hover:bg-neon-slatedarker rounded-lg text-md p-3 inline-flex"
           >
             Blog
-        {/* <svg
+            <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -87,7 +88,30 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
                 strokeLinejoin="round"
                 d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
               />
-            </svg>*/}
+            </svg>
+          </Link>
+        </li> */}
+        <li>
+          <Link
+            isExternal
+            href="https://github.com/nextui-org/nextui"
+            className="inline-flex items-center text-gray-600 dark:text-gray-400  p-2.5  hover:text-gray-500"
+          >
+            Blog
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-4 h-4"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+              />
+            </svg>
           </Link>
         </li>
 
@@ -104,7 +128,7 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
             onClick={goToEmail}
             // className="px-4 py-2 font-bold rounded-lg text-gray-50 bg-neon-teal hover:bg-primary-700 w-fit"
             // className="px-3 py-1.5 font-bold rounded-lg bg-transparent text-neon-teal hover:text-neon-blue border-2 border-neon-teal hover:border-neon-blue"
-            className="text-transparent bg-clip-text bg-gradient-to-r from-neon-color2 to-neon-color4  px-3 py-1.5 font-bold rounded-md hover:text-color3"
+            className="text-transparent bg-clip-text bg-gradient-to-r from-neon-color2 to-neon-color4   rounded-md hover:text-neon-color3 p-2.5 font-semibold"
           >
             Join
           </button>
