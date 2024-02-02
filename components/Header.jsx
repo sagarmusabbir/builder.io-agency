@@ -69,7 +69,7 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
             href="https://musabbirsagar.com/blog"
             target="_blank"
             // className="text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5"
-            className="font-bold text-gray-600 hover:text-neon-slatedarker  dark:text-gray-400 hover:bg-neon-slatelightmd/40 dark:hover:bg-neon-slatedarker rounded-lg text-md p-3"
+            className="flex items-center font-bold text-gray-600 hover:text-neon-slatedarker  dark:text-gray-400 hover:bg-neon-slatelightmd/40 dark:hover:bg-neon-slatedarker rounded-lg text-md p-3"
           >
             Blog
              <svg
