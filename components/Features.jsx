@@ -3,11 +3,11 @@ import Image from "next/image";
 import MacBarSrc from "../public/images/mac-bar.png";
 import BarSrc from "../public/images/bar.png";
 
-import Feat2Src from "../public/images/feature-2.jpg";
+import F1Src from "../public/images/feature1.jpg";
 
-import Feat4Src from "../public/images/feature-4.jpg";
+import F2Src from "../public/images/feature2.webp";
 
-import Feat6Src from "../public/images/feature-6.webp";
+import F3Src from "../public/images/feature3.png";
 
 // Built with Vivid (https://vivid.lol) ⚡️
 
@@ -58,7 +58,7 @@ export const Features = () => {
                 <source src="/videos/palette.webm" type="video/webm" />
                 <source src="/videos/palette.mp4" type="video/mp4" />
               </video> */}
-              <Image src={Feat4Src} alt="feature-1" />
+              <Image src={F1Src} alt="feature-1" />
             </div>
           </div>
         </div>
@@ -108,7 +108,7 @@ export const Features = () => {
                 <source src="/videos/resize.webm" type="video/webm" />
                 <source src="/videos/resize.mp4" type="video/mp4" />
               </video> */}
-              <Image src={Feat2Src} alt="feature-2" />
+              <Image src={F1Src} alt="feature-2" />
             </div>
           </div>
         </div>
@@ -157,7 +157,7 @@ export const Features = () => {
                 <source src="/videos/center.webm" type="video/webm" />
                 <source src="/videos/center.mp4" type="video/mp4" />
               </video> */}
-              <Image src={Feat6Src} alt="feature-3" />
+              <Image src={F1Src} alt="feature-3" />
             </div>
           </div>
         </div>
