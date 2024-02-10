@@ -20,7 +20,7 @@ export const FeatureBlocks = () => {
             className="font-bold leading-tight tracking-tighter text-4xl md:text-6xl text-gray-800 dark:text-gray-100"
           >
             Make{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-blue via-neon-emereld to-neon-indigo">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-color1 via-neon-color3 to-neon-color5">
               headless
             </span>{" "}
             a havit

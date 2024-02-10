@@ -14,7 +14,7 @@ export const Testimonials = () => {
             data-aos="zoom-y-out"
             className="text-4xl font-bold leading-tight tracking-tighter text-gray-800 md:text-6xl dark:text-gray-100"
           >
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-teal to-neon-blue">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-color5 to-neon-color1">
               Loved
             </span>{" "}
             by developers
