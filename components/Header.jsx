@@ -35,7 +35,7 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
     <Link href="/">
       <div className="flex flex-row items-center gap-1">
         <Image
-          src="/images/thirdbracket.svg"
+          src="/images/tbl50.png"
           alt="thirdbracket.co.uk"
           height="50"
           width="50"
