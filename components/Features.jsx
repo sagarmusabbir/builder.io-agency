@@ -1,13 +1,10 @@
 import Image from "next/image";
 
-import MacBarSrc from "../public/images/mac-bar.png";
 import BarSrc from "../public/images/bar.png";
 
-import F1Src from "../public/images/feature1.jpg";
-
-import F2Src from "../public/images/feature2.png";
-
-import F3Src from "../public/images/feature3.png";
+import WSrc from "../public/images/w.png";
+import JSrc from "../public/images/jamstack.png";
+import HSrc from "../public/images/headless.png";
 
 // Built with Vivid (https://vivid.lol) ⚡️
 
@@ -58,7 +55,7 @@ export const Features = () => {
                 <source src="/videos/palette.webm" type="video/webm" />
                 <source src="/videos/palette.mp4" type="video/mp4" />
               </video> */}
-              <Image src={F1Src} alt="feature-1" />
+              <Image src={JSrc} alt="feature-1" />
             </div>
           </div>
         </div>
@@ -108,7 +105,7 @@ export const Features = () => {
                 <source src="/videos/resize.webm" type="video/webm" />
                 <source src="/videos/resize.mp4" type="video/mp4" />
               </video> */}
-              <Image src={F2Src} alt="feature-2" />
+              <Image src={WSrc} alt="feature-2" />
             </div>
           </div>
         </div>
@@ -157,7 +154,7 @@ export const Features = () => {
                 <source src="/videos/center.webm" type="video/webm" />
                 <source src="/videos/center.mp4" type="video/mp4" />
               </video> */}
-              <Image src={F1Src} alt="feature-3" />
+              <Image src={HSrc} alt="feature-3" />
             </div>
           </div>
         </div>
