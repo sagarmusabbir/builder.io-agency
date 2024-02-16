@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import BarSrc from "../public/images/bar.png";
 
-import WSrc from "../public/images/w.png";
+import WSrc from "../public/images/716C891C-79B6-4F9E-A327-307A1E5176DC.png";
 import JSrc from "../public/images/jamstack.png";
 import HSrc from "../public/images/headless.png";
 
