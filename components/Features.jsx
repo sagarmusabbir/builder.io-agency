@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import BarSrc from "../public/images/bar.png";
 
-import WSrc from "../public/images/716C891C-79B6-4F9E-A327-307A1E5176DC.png";
+import WSrc from "../public/images/wordpress.png";
 import JSrc from "../public/images/jamstack.png";
 import HSrc from "../public/images/headless.png";
 
@@ -68,7 +68,7 @@ export const Features = () => {
               data-aos="zoom-y-out"
               className="font-bold leading-tight tracking-tighter text-4xl md:text-6xl text-gray-800 dark:text-gray-100"
             >
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-color1 to-neon-color3">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-color3 to-neon-color4">
                 Optimized WordPress
               </span>
               <br /> Development
@@ -82,7 +82,7 @@ export const Features = () => {
               core of the backend
             </p>
           </div>
-          <div className="w-5/6 p-4 md:w-1/2 md:p-12 bg-gradient-to-br rounded-xl from-neon-color3 to-neon-color1 md:-translate-x-14">
+          <div className="w-5/6 p-4 md:w-1/2 md:p-12 bg-gradient-to-br rounded-xl from-neon-color4 to-neon-color3 md:-translate-x-14">
             <div
               data-aos="fade-right"
               data-aos-delay="300"
