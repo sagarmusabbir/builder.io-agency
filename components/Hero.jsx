@@ -65,6 +65,7 @@ export const Hero = () => {
             <form
               className="relative flex flex-row gap-2 md:gap-4"
               onSubmit={handleSubmit}
+              netlify
             >
               <input
                 type="email"
