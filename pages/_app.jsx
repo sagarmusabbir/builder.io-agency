@@ -13,7 +13,7 @@ if (typeof window !== "undefined" && process.env.NODE_ENV === "development") {
   import("vivid-studio/style.css");
 }
 
-const siteTitle = "Third Bracket — Build . Integrate . Explore";
+const siteTitle = "Third Bracket | Build . Integrate . Explore";
 const siteDescription = "Give your business a paltform to compete!";
 
 const App = ({ Component, pageProps }) => {
